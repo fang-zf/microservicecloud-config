@@ -1,6 +1,6 @@
-﻿spring:
-  profiles:
-    active:
+﻿spring: 
+  profiles: 
+    active: 
     -dev
 ---
 spring:
@@ -9,6 +9,6 @@ spring:
     name: microservicecloud-config-atguigu-dev
 ---
 spring:
-  profiles: test 扣则试环境
+  profiles: test #扣则试环境
   application:
     name: microservicecloud-config-atguigu-test
